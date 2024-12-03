@@ -1,0 +1,29 @@
+{% extends "layouts/base.html" %}
+{% block content %}
+  <div>
+  <h1>Dish Types<a href="{% url "dish-type-create" %}" class="btn btn-dark m-3">+</a></h1>
+  {% for dish_type in dishtype_list %}
+    <div class="d-flex align-items-center justify-content-center">
+      <span class="font-weight-bold">{{ dish_type.name }}</span>
+        <ul class="navbar-nav navbar-nav-hover ms-auto">
+          <li class="nav-item dropdown dropdown-hover mx-2 ms-lg-6">
+            <a class="nav-link ps-2 d-flex cursor-pointer align-items-center" id="dropdownMenuPages" data-bs-toggle="dropdown" aria-expanded="false">
+              <img src="{{ ASSETS_ROOT }}/img/down-arrow-dark.svg" alt="down-arrow" class="arrow ms-auto ms-md-2">
+            </a>
+            <div class="dropdown-menu dropdown-menu-animation ms-n3 dropdown-md p-3 border-radius-xl mt-0 mt-lg-3" aria-labelledby="dropdownMenuPages">
+              <div class="d-none d-lg-block">
+                <a href="{% url "dish-type-update" pk=dish_type.id %}" class="dropdown-item border-radius-md">
+                  <span>Update</span>
+                </a>
+                <a href="{% url "dish-type-delete" pk=dish_type.id %}" class="dropdown-item border-radius-md">
+                  <span>Delete</span>
+                </a>
+              </div>
+            </div>
+          </li>
+        </ul>
+    </div>
+    <hr>
+  {% endfor %}
+  </div>
+{% endblock %}

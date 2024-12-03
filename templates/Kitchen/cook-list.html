@@ -1,0 +1,37 @@
+{% extends "layouts/base.html" %}
+{% block content %}
+  <table class="table table-hover max-width-500">
+  <tr class="align-items-center">
+    <th>Username</th>
+    <th style="text-align: center">Email</th>
+    <th>Experience</th>
+    <th></th>
+  </tr>
+  {% for cook in cook_list %}
+    <tr class="align-items-center">
+      <th><a href="{% url "cook-detail" pk=cook.id %}">{{ cook.username }}</a></th>
+      <th style="text-align: center" class="text-info">{{ cook.email }}</th>
+      <th class="text-info">{{ cook.years_of_experience }} years</th>
+      <th>
+        <ul class="navbar-nav navbar-nav-hover ms-auto">
+          <li class="nav-item dropdown dropdown-hover mx-2 ms-lg-6">
+            <a class="nav-link ps-2 d-flex cursor-pointer align-items-center" id="dropdownMenuPages" data-bs-toggle="dropdown" aria-expanded="false">
+              <img src="{{ ASSETS_ROOT }}/img/down-arrow-dark.svg" alt="down-arrow" class="arrow ms-auto ms-md-2">
+            </a>
+            <div class="dropdown-menu dropdown-menu-animation ms-n3 dropdown-md p-3 border-radius-xl mt-0 mt-lg-3" aria-labelledby="dropdownMenuPages">
+              <div class="d-none d-lg-block">
+                <a href="{% url "cook-update" pk=cook.id %}" class="dropdown-item border-radius-md">
+                  <span>Update</span>
+                </a>
+                <a href="{% url "cook-delete" pk=cook.id %}" class="dropdown-item border-radius-md">
+                  <span>Delete</span>
+                </a>
+              </div>
+            </div>
+          </li>
+        </ul>
+      </th>
+    </tr>
+  {% endfor %}
+  </table>
+{% endblock %}
