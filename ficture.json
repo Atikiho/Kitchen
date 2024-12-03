@@ -1,0 +1,203 @@
+[
+  {
+    "model": "Kitchen_app.cook",
+    "pk": 1,
+    "fields": {
+      "username": "chefjohn",
+      "password": "pbkdf2_sha256$260000$examplepasswordhash",
+      "email": "chefjohn@example.com",
+      "years_of_experience": 10
+    }
+  },
+  {
+    "model": "Kitchen_app.cook",
+    "pk": 2,
+    "fields": {
+      "username": "chefemma",
+      "password": "pbkdf2_sha256$260000$examplepasswordhash",
+      "email": "chefemma@example.com",
+      "years_of_experience": 7
+    }
+  },
+  {
+    "model": "Kitchen_app.cook",
+    "pk": 3,
+    "fields": {
+      "username": "chefliam",
+      "password": "pbkdf2_sha256$260000$examplepasswordhash",
+      "email": "chefliam@example.com",
+      "years_of_experience": 5
+    }
+  },
+  {
+    "model": "Kitchen_app.cook",
+    "pk": 4,
+    "fields": {
+      "username": "chefava",
+      "password": "pbkdf2_sha256$260000$examplepasswordhash",
+      "email": "chefava@example.com",
+      "years_of_experience": 12
+    }
+  },
+  {
+    "model": "Kitchen_app.cook",
+    "pk": 5,
+    "fields": {
+      "username": "chefnoah",
+      "password": "pbkdf2_sha256$260000$examplepasswordhash",
+      "email": "chefnoah@example.com",
+      "years_of_experience": 8
+    }
+  },
+  {
+    "model": "Kitchen_app.cook",
+    "pk": 6,
+    "fields": {
+      "username": "chefmia",
+      "password": "pbkdf2_sha256$260000$examplepasswordhash",
+      "email": "chefmia@example.com",
+      "years_of_experience": 4
+    }
+  },
+  {
+    "model": "Kitchen_app.dishtype",
+    "pk": 1,
+    "fields": {
+      "name": "Pizza"
+    }
+  },
+  {
+    "model": "Kitchen_app.dishtype",
+    "pk": 2,
+    "fields": {
+      "name": "Pasta"
+    }
+  },
+  {
+    "model": "Kitchen_app.dishtype",
+    "pk": 3,
+    "fields": {
+      "name": "Dessert"
+    }
+  },
+  {
+    "model": "Kitchen_app.dishtype",
+    "pk": 4,
+    "fields": {
+      "name": "Soup"
+    }
+  },
+  {
+    "model": "Kitchen_app.dishtype",
+    "pk": 5,
+    "fields": {
+      "name": "Salad"
+    }
+  },
+  {
+    "model": "Kitchen_app.dishtype",
+    "pk": 6,
+    "fields": {
+      "name": "Grill"
+    }
+  },
+  {
+    "model": "Kitchen_app.dish",
+    "pk": 1,
+    "fields": {
+      "name": "Hawaiian Pizza",
+      "description": "A delightful pizza topped with pineapple and ham.",
+      "price": "12.99",
+      "dish_type": 1,
+      "cooks": [1, 2]
+    }
+  },
+  {
+    "model": "Kitchen_app.dish",
+    "pk": 2,
+    "fields": {
+      "name": "Pepperoni Pizza",
+      "description": "Classic pizza topped with pepperoni and mozzarella.",
+      "price": "11.99",
+      "dish_type": 1,
+      "cooks": [3, 4]
+    }
+  },
+  {
+    "model": "Kitchen_app.dish",
+    "pk": 3,
+    "fields": {
+      "name": "Caesar Salad",
+      "description": "Crisp romaine lettuce with creamy Caesar dressing and croutons.",
+      "price": "7.99",
+      "dish_type": 5,
+      "cooks": [2, 5]
+    }
+  },
+  {
+    "model": "Kitchen_app.dish",
+    "pk": 4,
+    "fields": {
+      "name": "Grilled Chicken Salad",
+      "description": "Fresh greens with grilled chicken, cherry tomatoes, and vinaigrette.",
+      "price": "9.99",
+      "dish_type": 5,
+      "cooks": [4, 6]
+    }
+  },
+  {
+    "model": "Kitchen_app.dish",
+    "pk": 5,
+    "fields": {
+      "name": "BBQ Ribs",
+      "description": "Tender ribs glazed with BBQ sauce and grilled to perfection.",
+      "price": "19.99",
+      "dish_type": 6,
+      "cooks": [1, 5]
+    }
+  },
+  {
+    "model": "Kitchen_app.dish",
+    "pk": 6,
+    "fields": {
+      "name": "Grilled Salmon",
+      "description": "Succulent salmon fillet grilled and served with lemon butter sauce.",
+      "price": "17.99",
+      "dish_type": 6,
+      "cooks": [3, 6]
+    }
+  },
+  {
+    "model": "Kitchen_app.dish",
+    "pk": 7,
+    "fields": {
+      "name": "Chocolate Lava Cake",
+      "description": "Warm chocolate cake with a molten chocolate center.",
+      "price": "6.99",
+      "dish_type": 3,
+      "cooks": [4]
+    }
+  },
+  {
+    "model": "Kitchen_app.dish",
+    "pk": 8,
+    "fields": {
+      "name": "Minestrone Soup",
+      "description": "Hearty Italian soup with vegetables, beans, and pasta.",
+      "price": "6.99",
+      "dish_type": 4,
+      "cooks": [1, 3]
+    }
+  },
+  {
+    "model": "Kitchen_app.dish",
+    "pk": 9,
+    "fields": {
+      "name": "French Onion Soup",
+      "description": "Classic French soup with caramelized onions and a cheesy crouton.",
+      "price": "7.99",
+      "dish_type": 4,
+      "cooks": [5, 6]
+    }
+  }
+]
