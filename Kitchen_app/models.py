@@ -13,7 +13,11 @@ class Dish(models.Model):
     name = models.CharField(max_length=255)
     description = models.TextField()
     price = models.DecimalField(max_digits=10, decimal_places=2)
-    dish_type = models.ForeignKey(to="DishType", related_name="dishes", on_delete=models.DO_NOTHING)
+    dish_type = models.ForeignKey(
+        to="DishType",
+        related_name="dishes",
+        on_delete=models.DO_NOTHING
+    )
     cooks = models.ManyToManyField(to="Cook", related_name="dishes")
 
     def __str__(self):

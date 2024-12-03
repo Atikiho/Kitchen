@@ -1,12 +1,15 @@
 from django import forms
 from django.contrib.auth.forms import UserCreationForm, UserChangeForm
-from django.core.exceptions import ValidationError
 
 from Kitchen_app.models import Cook, Dish, DishType
 
 
 class CookForm(UserCreationForm):
-    years_of_experience = forms.IntegerField(min_value=0, max_value=80, label="Years of experience")
+    years_of_experience = forms.IntegerField(
+        min_value=0,
+        max_value=80,
+        label="Years of experience"
+    )
     email = forms.EmailField(required=True)
 
     class Meta(UserCreationForm.Meta):
@@ -27,7 +30,10 @@ class CookUpdateForm(UserChangeForm):
 
 
 class DishForm(forms.ModelForm):
-    cooks = forms.ModelMultipleChoiceField(queryset=Cook.objects.all(), widget=forms.CheckboxSelectMultiple)
+    cooks = forms.ModelMultipleChoiceField(
+        queryset=Cook.objects.all(),
+        widget=forms.CheckboxSelectMultiple
+    )
     price = forms.DecimalField(min_value=1)
 
     class Meta:

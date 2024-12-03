@@ -1,15 +1,42 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="c736ad06-6b58-4763-8e08-5765e7d588fd" name="Changes" comment="" />
+    <list default="true" id="c736ad06-6b58-4763-8e08-5765e7d588fd" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Kitchen/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/Kitchen/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Kitchen/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/Kitchen/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Kitchen_app/context_processors.py" beforeDir="false" afterPath="$PROJECT_DIR$/Kitchen_app/context_processors.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Kitchen_app/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/Kitchen_app/forms.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Kitchen_app/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/Kitchen_app/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Kitchen_app/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/Kitchen_app/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Kitchen_app/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/Kitchen_app/views.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 0
-}]]></component>
+  <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
+    <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="package.json" />
+        <option value="HTML File" />
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0
+}</component>
   <component name="ProjectId" id="2pZ8oUcNbxnkImWX34hhW00QZp1" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -18,13 +45,152 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "Django Server.Kitchen.executor": "Run",
+    "Django tests.Test: Tests.test_forms.test_forms.TestForm.executor": "Run",
+    "Django tests.Test: Tests.test_forms.test_forms.TestForm.test_invalid_dish_form.executor": "Run",
+    "Django tests.Test: Tests.test_forms.test_forms.TestForm.test_invalid_mail.executor": "Run",
+    "Django tests.Test: Tests.test_forms.test_forms.TestForm.test_login_and_login_required.executor": "Run",
+    "Django tests.Test: Tests.test_forms.test_forms.TestForm.test_login_invalid_data.executor": "Run",
+    "Django tests.Test: Tests.test_forms.test_forms.TestForm.test_login_required.executor": "Run",
+    "Django tests.Test: Tests.test_forms.test_forms.TestForm.test_valid_cook_form.executor": "Run",
+    "Django tests.Test: Tests.test_forms.test_forms.TestForm.test_valid_form.executor": "Run",
+    "Django tests.Test: Tests.tests.TestLogin.executor": "Run",
+    "Django tests.Test: Tests.tests.TestLogin.test_login_required.executor": "Run",
+    "Django tests.Test: Tests.tests.TestSearch.executor": "Run",
+    "Django tests.Test: Tests.tests.TestSearch.test_search_dish.executor": "Run",
     "RunOnceActivity.OpenDjangoStructureViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "django.template.preview.state": "SHOW_EDITOR",
+    "git-widget-placeholder": "dev",
+    "last_opened_file_path": "C:/projects/py-taxi-service-search-and-tests",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager">
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\projects\Kitchen\templates\includes" />
+      <recent name="C:\projects\Kitchen\templates\layouts" />
+      <recent name="C:\projects\Kitchen\templates\Kitchen" />
+      <recent name="C:\projects\Kitchen" />
+      <recent name="C:\projects\Kitchen\templates" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\projects\Kitchen\static" />
+      <recent name="C:\projects\Kitchen\templates\layouts" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Django Server.Kitchen">
+    <configuration name="Test: Tests.test_forms.test_forms.TestForm" type="DjangoTestsConfigurationType" temporary="true">
+      <module name="Kitchen" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="TARGET" value="Tests.test_forms.test_forms.TestForm" />
+      <option name="SETTINGS_FILE" value="" />
+      <option name="CUSTOM_SETTINGS" value="false" />
+      <option name="USE_OPTIONS" value="false" />
+      <option name="OPTIONS" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Test: Tests.tests.TestLogin" type="DjangoTestsConfigurationType" temporary="true">
+      <module name="Kitchen" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="TARGET" value="Tests.tests.TestLogin" />
+      <option name="SETTINGS_FILE" value="" />
+      <option name="CUSTOM_SETTINGS" value="false" />
+      <option name="USE_OPTIONS" value="false" />
+      <option name="OPTIONS" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Test: Tests.tests.TestLogin.test_login_required" type="DjangoTestsConfigurationType" temporary="true">
+      <module name="Kitchen" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="TARGET" value="Tests.tests.TestLogin.test_login_required" />
+      <option name="SETTINGS_FILE" value="" />
+      <option name="CUSTOM_SETTINGS" value="false" />
+      <option name="USE_OPTIONS" value="false" />
+      <option name="OPTIONS" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Test: Tests.tests.TestSearch" type="DjangoTestsConfigurationType" temporary="true">
+      <module name="Kitchen" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="TARGET" value="Tests.tests.TestSearch" />
+      <option name="SETTINGS_FILE" value="" />
+      <option name="CUSTOM_SETTINGS" value="false" />
+      <option name="USE_OPTIONS" value="false" />
+      <option name="OPTIONS" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Test: Tests.tests.TestSearch.test_search_dish" type="DjangoTestsConfigurationType" temporary="true">
+      <module name="Kitchen" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="TARGET" value="Tests.tests.TestSearch.test_search_dish" />
+      <option name="SETTINGS_FILE" value="" />
+      <option name="CUSTOM_SETTINGS" value="false" />
+      <option name="USE_OPTIONS" value="false" />
+      <option name="OPTIONS" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="Kitchen" type="Python.DjangoServer" factoryName="Django server">
       <module name="Kitchen" />
       <option name="ENV_FILES" value="" />
@@ -32,6 +198,7 @@
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
+        <env name="DJANGO_SETTINGS_MODULE" value="Kitchen.settings" />
       </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="" />
@@ -49,6 +216,15 @@
       <option name="customRunCommand" value="" />
       <method v="2" />
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Django tests.Test: Tests.tests.TestSearch" />
+        <item itemvalue="Django tests.Test: Tests.tests.TestSearch.test_search_dish" />
+        <item itemvalue="Django tests.Test: Tests.tests.TestLogin.test_login_required" />
+        <item itemvalue="Django tests.Test: Tests.tests.TestLogin" />
+        <item itemvalue="Django tests.Test: Tests.test_forms.test_forms.TestForm" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
@@ -66,8 +242,61 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1732962412054</updated>
-      <workItem from="1732962413409" duration="21000" />
+      <workItem from="1732962413409" duration="6631000" />
+      <workItem from="1733049352143" duration="8919000" />
+      <workItem from="1733075695074" duration="13227000" />
+      <workItem from="1733119905911" duration="3985000" />
+      <workItem from="1733130884769" duration="25010000" />
+      <workItem from="1733157023326" duration="22502000" />
+      <workItem from="1733205211225" duration="11871000" />
+      <workItem from="1733224094761" duration="16407000" />
     </task>
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="dev" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Create models, forms, views and urls" />
+    <MESSAGE value="Create models, views and urls" />
+    <MESSAGE value="Create models, forms, views and urls" />
+    <option name="LAST_COMMIT_MESSAGE" value="Create models, forms, views and urls" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/Kitchen$Test__Tests_tests_TestSearch.coverage" NAME="Test: Tests.tests.TestSearch Coverage Results" MODIFIED="1733236747058" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/Kitchen$Test__Tests_tests_TestLogin_test_login_required.coverage" NAME="Test: Tests.tests.TestLogin.test_login_required Coverage Results" MODIFIED="1733234927110" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/Kitchen$Test__Tests_test_forms_test_forms_TestForm_test_login_and_login_required.coverage" NAME="Test: Tests.test_forms.test_forms.TestForm.test_login_and_login_required Coverage Results" MODIFIED="1733233961506" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/Kitchen$Test__Tests_test_forms_test_forms_TestForm_test_valid_form.coverage" NAME="Test: Tests.test_forms.test_forms.TestForm.test_valid_form Coverage Results" MODIFIED="1733226054168" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/Kitchen$Test__Tests_test_forms_test_forms_TestForm_test_invalid_dish_form.coverage" NAME="Test: Tests.test_forms.test_forms.TestForm.test_invalid_dish_form Coverage Results" MODIFIED="1733231860008" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/Kitchen$Test__Tests_test_forms_test_forms_TestForm_test_login_required.coverage" NAME="Test: Tests.test_forms.test_forms.TestForm.test_login_required Coverage Results" MODIFIED="1733234110802" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/Kitchen$Test__Tests_tests_TestSearch_test_search_dish.coverage" NAME="Test: Tests.tests.TestSearch.test_search_dish Coverage Results" MODIFIED="1733236721145" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/Kitchen$Test__Tests_tests_TestLogin.coverage" NAME="Test: Tests.tests.TestLogin Coverage Results" MODIFIED="1733234225682" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/Kitchen$Test__Tests_test_forms_test_forms_TestForm_test_invalid_mail.coverage" NAME="Test: Tests.test_forms.test_forms.TestForm.test_invalid_mail Coverage Results" MODIFIED="1733228087404" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/Kitchen$Test__Tests_test_forms_test_forms_TestForm.coverage" NAME="Test: Tests.test_forms.test_forms.TestForm Coverage Results" MODIFIED="1733234113481" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/Kitchen$Test__Tests_test_forms_test_forms_TestForm_test_login_invalid_data.coverage" NAME="Test: Tests.test_forms.test_forms.TestForm.test_login_invalid_data Coverage Results" MODIFIED="1733234027086" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/Kitchen$Test__Tests_test_forms_test_forms_TestForm_test_valid_cook_form.coverage" NAME="Test: Tests.test_forms.test_forms.TestForm.test_valid_cook_form Coverage Results" MODIFIED="1733227378637" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
   </component>
 </project>

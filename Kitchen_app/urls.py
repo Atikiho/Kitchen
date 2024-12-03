@@ -31,7 +31,19 @@ urlpatterns = [
     path("dish-update/<int:pk>/", DishUpdate.as_view(), name="dish-update"),
     path("dish-delete/<int:pk>", DishDelete.as_view(), name="dish-delete"),
     path("dish-type/", DishTypeList.as_view(), name="dish-type-list"),
-    path("dish-type-create/", DishTypeCreate.as_view(), name="dish-type-create"),
-    path("dish-type-update/<int:pk>/", DishTypeUpdate.as_view(), name="dish-type-update"),
-    path("dish-type-delete/<int:pk>/", DishTypeDelete.as_view(), name="dish-type-delete"),
+    path(
+        "dish-type-create/",
+        DishTypeCreate.as_view(),
+        name="dish-type-create"
+    ),
+    path(
+        "dish-type-update/<int:pk>/",
+        DishTypeUpdate.as_view(),
+        name="dish-type-update"
+    ),
+    path(
+        "dish-type-delete/<int:pk>/",
+        DishTypeDelete.as_view(),
+        name="dish-type-delete"
+    ),
 ]

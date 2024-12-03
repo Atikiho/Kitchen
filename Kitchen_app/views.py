@@ -3,7 +3,13 @@ from django.shortcuts import render
 from django.urls import reverse_lazy
 from django.views import generic
 
-from Kitchen_app.forms import CookForm, DishForm, DishTypeForm, DishFormSearch, CookUpdateForm
+from Kitchen_app.forms import (
+    CookForm,
+    DishForm,
+    DishTypeForm,
+    DishFormSearch,
+    CookUpdateForm
+)
 from Kitchen_app.models import Cook, Dish, DishType
 
 

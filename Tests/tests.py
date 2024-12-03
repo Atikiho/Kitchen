@@ -40,10 +40,18 @@ class TestLogin(TestCase):
             self.assertEqual(url.status_code, 302)
 
     def test_login(self):
-        self.assertTrue(self.client.login(username="Test123", password="Test12345"))
+        self.assertTrue(
+            self.client.login(
+                username="Test123",
+                password="Test12345")
+        )
 
     def test_login_invalid_data(self):
-        self.assertFalse(self.client.login(username="Test123", password="Test"))
+        self.assertFalse(
+            self.client.login(
+                username="Test123",
+                password="Test")
+        )
 
 
 class TestSearch(TestCase):
