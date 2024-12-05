@@ -10,8 +10,8 @@
   {% for cook in cook_list %}
     <tr class="align-items-center">
       <th>{{ cook.username }}</th>
-      <th style="text-align: center" class="text-info">{{ cook.email }}</th>
-      <th class="text-info">{{ cook.years_of_experience }} years</th>
+      <th style="text-align: center" class="text-dark">{{ cook.email }}</th>
+      <th class="text-dark">{{ cook.years_of_experience }} years</th>
       <th>
         <ul class="navbar-nav navbar-nav-hover ms-auto">
           <li class="nav-item dropdown dropdown-hover mx-2 ms-lg-6">
@@ -21,13 +21,13 @@
             <div class="dropdown-menu dropdown-menu-animation ms-n3 dropdown-md p-3 border-radius-xl mt-0 mt-lg-3" aria-labelledby="dropdownMenuPages">
               <div class="d-none d-lg-block">
                 <a href="{% url "cook-update" pk=cook.id %}" class="dropdown-item border-radius-md">
-                  <span>Update</span>
+                  <span class = "text text-dark">Update</span>
                 </a>
                 <a href="{% url "cook-delete" pk=cook.id %}" class="dropdown-item border-radius-md">
-                  <span>Delete</span>
+                  <span class = "text text-dark">Delete</span>
                 </a>
                 <a href="{% url "cook-detail" pk=cook.id %}" class="dropdown-item border-radius-md">
-                  <span>Detail</span>
+                  <span class="text text-dark">Detail</span>
                 </a>
               </div>
             </div>

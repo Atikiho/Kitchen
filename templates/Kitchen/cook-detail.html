@@ -7,7 +7,9 @@
     <p>He is master in cooking such dishes:</p>
       <ul>
         {% for dish in cook.dishes.all %}
-          <li>{{ dish.name }}</li>
+          <li>
+            <a href="{% url "dish-detail" pk=dish.id %}">{{ dish.name }}</a>
+          </li>
         {% endfor %}
       </ul>
   </div>
