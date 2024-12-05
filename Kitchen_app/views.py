@@ -1,4 +1,5 @@
 from django.contrib.auth.mixins import LoginRequiredMixin
+from django.contrib.sites.shortcuts import get_current_site
 from django.shortcuts import render
 from django.urls import reverse_lazy
 from django.views import generic
@@ -62,7 +63,19 @@ class DishList(LoginRequiredMixin, generic.ListView):
     def get_context_data(self, *, object_list=None, **kwargs):
         context = super(DishList, self).get_context_data(**kwargs)
 
-        context["search_form"] = DishFormSearch
+        name = self.request.GET.get("name", "")
+        min_price = self.request.GET.get("min_price", "")
+        max_price = self.request.GET.get("max_price", "")
+        dish_type = self.request.GET.getlist("dish_type", "")
+
+        context["search_form"] = DishFormSearch(
+            initial={
+                "name": name,
+                "min_price": min_price,
+                "max_price": max_price,
+                "dish_type": dish_type,
+            }
+        )
         return context
 
     def get_queryset(self):
