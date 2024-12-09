@@ -14,13 +14,16 @@ from Kitchen_app.forms import (
 from Kitchen_app.models import Cook, Dish, DishType
 
 
-def index(request):
-    context = {
-        "Cooks": Cook.objects.all(),
-        "Dishes": Dish.objects.all(),
-        "DishTypes": DishType.objects.all(),
-    }
-    return render(request, "Kitchen/index.html", context=context)
+class Index(generic.ListView):
+    model = Cook
+    template_name = "Kitchen/index.html"
+
+    def get_context_data(self, *, object_list=None, **kwargs):
+        context = super(Index, self).get_context_data(**kwargs)
+        context["Cooks"] = Cook.objects.all()
+        context["Dishes"] = Dish.objects.all()
+        context["DishTypes"] = Dish.objects.all()
+        return context
 
 
 class CookList(LoginRequiredMixin, generic.ListView):
