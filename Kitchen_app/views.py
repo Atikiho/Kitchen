@@ -35,6 +35,7 @@ class CookList(LoginRequiredMixin, generic.ListView):
 class CookDetail(LoginRequiredMixin, generic.DetailView):
     model = Cook
     template_name = "Kitchen/cook-detail.html"
+    queryset = Cook.objects.prefetch_related()
 
 
 class CookCreate(generic.CreateView):
@@ -61,7 +62,6 @@ class DishList(LoginRequiredMixin, generic.ListView):
     model = Dish
     template_name = "Kitchen/dish-list.html"
     paginate_by = 5
-    queryset = Dish.objects.all()
 
     def get_context_data(self, *, object_list=None, **kwargs):
         context = super(DishList, self).get_context_data(**kwargs)
@@ -90,7 +90,7 @@ class DishList(LoginRequiredMixin, generic.ListView):
             max_price = form.cleaned_data["max_price"]
             dish_type = form.cleaned_data["dish_type"]
 
-            queryset = self.queryset
+            queryset = Dish.objects.prefetch_related("dish_type")
 
             if name:
                 queryset = queryset.filter(name__icontains=name)
@@ -109,6 +109,7 @@ class DishList(LoginRequiredMixin, generic.ListView):
 class DishDetail(LoginRequiredMixin, generic.DetailView):
     model = Dish
     template_name = "Kitchen/dish-detail.html"
+    queryset = Dish.objects.prefetch_related()
 
 
 class DishCreate(LoginRequiredMixin, generic.CreateView):
