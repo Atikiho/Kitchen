@@ -1,0 +1,16 @@
+{% extends "layouts/base.html" %}
+{% block content %}
+  <div>
+    <h1>{{ dish.name }}</h1>
+    <p>{{ dish.description }}</p>
+    <p>{{ dish.price }} $</p>
+    <h4>Can be cooked by:</h4>
+    <ul>
+    {% for cook in dish.cooks.all %}
+      <li>
+        <a href="{% url "cook-detail" pk=cook.id %}">{{ cook.username }}</a>
+      </li>
+    {% endfor %}
+    </ul>
+  </div>
+{% endblock %}

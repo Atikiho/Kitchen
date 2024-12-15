@@ -1,0 +1,890 @@
+[
+{
+    "model": "auth.permission",
+    "pk": 1,
+    "fields": {
+        "name": "Can add log entry",
+        "content_type": 1,
+        "codename": "add_logentry"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 2,
+    "fields": {
+        "name": "Can change log entry",
+        "content_type": 1,
+        "codename": "change_logentry"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 3,
+    "fields": {
+        "name": "Can delete log entry",
+        "content_type": 1,
+        "codename": "delete_logentry"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 4,
+    "fields": {
+        "name": "Can view log entry",
+        "content_type": 1,
+        "codename": "view_logentry"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 5,
+    "fields": {
+        "name": "Can add permission",
+        "content_type": 2,
+        "codename": "add_permission"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 6,
+    "fields": {
+        "name": "Can change permission",
+        "content_type": 2,
+        "codename": "change_permission"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 7,
+    "fields": {
+        "name": "Can delete permission",
+        "content_type": 2,
+        "codename": "delete_permission"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 8,
+    "fields": {
+        "name": "Can view permission",
+        "content_type": 2,
+        "codename": "view_permission"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 9,
+    "fields": {
+        "name": "Can add group",
+        "content_type": 3,
+        "codename": "add_group"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 10,
+    "fields": {
+        "name": "Can change group",
+        "content_type": 3,
+        "codename": "change_group"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 11,
+    "fields": {
+        "name": "Can delete group",
+        "content_type": 3,
+        "codename": "delete_group"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 12,
+    "fields": {
+        "name": "Can view group",
+        "content_type": 3,
+        "codename": "view_group"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 13,
+    "fields": {
+        "name": "Can add content type",
+        "content_type": 4,
+        "codename": "add_contenttype"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 14,
+    "fields": {
+        "name": "Can change content type",
+        "content_type": 4,
+        "codename": "change_contenttype"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 15,
+    "fields": {
+        "name": "Can delete content type",
+        "content_type": 4,
+        "codename": "delete_contenttype"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 16,
+    "fields": {
+        "name": "Can view content type",
+        "content_type": 4,
+        "codename": "view_contenttype"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 17,
+    "fields": {
+        "name": "Can add session",
+        "content_type": 5,
+        "codename": "add_session"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 18,
+    "fields": {
+        "name": "Can change session",
+        "content_type": 5,
+        "codename": "change_session"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 19,
+    "fields": {
+        "name": "Can delete session",
+        "content_type": 5,
+        "codename": "delete_session"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 20,
+    "fields": {
+        "name": "Can view session",
+        "content_type": 5,
+        "codename": "view_session"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 21,
+    "fields": {
+        "name": "Can add user",
+        "content_type": 6,
+        "codename": "add_cook"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 22,
+    "fields": {
+        "name": "Can change user",
+        "content_type": 6,
+        "codename": "change_cook"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 23,
+    "fields": {
+        "name": "Can delete user",
+        "content_type": 6,
+        "codename": "delete_cook"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 24,
+    "fields": {
+        "name": "Can view user",
+        "content_type": 6,
+        "codename": "view_cook"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 25,
+    "fields": {
+        "name": "Can add dish type",
+        "content_type": 7,
+        "codename": "add_dishtype"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 26,
+    "fields": {
+        "name": "Can change dish type",
+        "content_type": 7,
+        "codename": "change_dishtype"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 27,
+    "fields": {
+        "name": "Can delete dish type",
+        "content_type": 7,
+        "codename": "delete_dishtype"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 28,
+    "fields": {
+        "name": "Can view dish type",
+        "content_type": 7,
+        "codename": "view_dishtype"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 29,
+    "fields": {
+        "name": "Can add dish",
+        "content_type": 8,
+        "codename": "add_dish"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 30,
+    "fields": {
+        "name": "Can change dish",
+        "content_type": 8,
+        "codename": "change_dish"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 31,
+    "fields": {
+        "name": "Can delete dish",
+        "content_type": 8,
+        "codename": "delete_dish"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 32,
+    "fields": {
+        "name": "Can view dish",
+        "content_type": 8,
+        "codename": "view_dish"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 1,
+    "fields": {
+        "app_label": "admin",
+        "model": "logentry"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 2,
+    "fields": {
+        "app_label": "auth",
+        "model": "permission"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 3,
+    "fields": {
+        "app_label": "auth",
+        "model": "group"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 4,
+    "fields": {
+        "app_label": "contenttypes",
+        "model": "contenttype"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 5,
+    "fields": {
+        "app_label": "sessions",
+        "model": "session"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 6,
+    "fields": {
+        "app_label": "User",
+        "model": "cook"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 7,
+    "fields": {
+        "app_label": "Kitchen_app",
+        "model": "dishtype"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 8,
+    "fields": {
+        "app_label": "Kitchen_app",
+        "model": "dish"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "does4y47by3ea10uff9wgonlm5jy46f3",
+    "fields": {
+        "session_data": ".eJxVjEEOwiAQRe_C2hCghWFcuvcMZBhQqoYmpV0Z7y5NutDtf-_9twi0rSVsLS9hSuIstDj9bpH4mesO0oPqfZY813WZotwVedAmr3PKr8vh_h0UaqXXMA4eLFj07FVGVpjAJHcbRu0IIoNLTplOSRmlwaFFypipJ9awAfH5ArMgNqc:1tMRBV:69y8Qd_LUF4AdUTEJk4xbnPH4Ys1L6u3UPAnd3UKu30",
+        "expire_date": "2024-12-28T12:23:49.325Z"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "tv60ocetz61cjdub2wn1o3sdibvn2fp2",
+    "fields": {
+        "session_data": ".eJxVjEEOwiAQRe_C2hCghWFcuvcMZBhQqoYmpV0Z7y5NutDtf-_9twi0rSVsLS9hSuIstDj9bpH4mesO0oPqfZY813WZotwVedAmr3PKr8vh_h0UaqXXMA4eLFj07FVGVpjAJHcbRu0IIoNLTplOSRmlwaFFypipJ9awAfH5ArMgNqc:1tL1Wi:QMadyxpvLrC7XYB5OvTjXJlUIDsgeT5AOXaBR_D3_08",
+        "expire_date": "2024-12-24T14:47:52.595Z"
+    }
+},
+{
+    "model": "Accounts.cook",
+    "pk": 1,
+    "fields": {
+        "password": "pbkdf2_sha256$870000$mgqhcpadMHklXupdyTKyWX$vBG3+tswVFNgSHz4JSxYBXVa5YROslJsAvwoOFKYDMk=",
+        "last_login": "2024-12-14T12:23:49.322Z",
+        "is_superuser": false,
+        "username": "Ratatui",
+        "first_name": "",
+        "last_name": "",
+        "email": "ratatui@gmail.com",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2024-12-10T14:47:43.953Z",
+        "years_of_experience": 12,
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "Accounts.cook",
+    "pk": 2,
+    "fields": {
+        "password": "pbkdf2_sha256$870000$aXqhcpadXFklRuptyTKyOP$vAB4+uvxVFNgSGz4KTzYBXVa5YROslJsBvwoOFKYDPl=",
+        "last_login": "2024-12-14T14:00:00Z",
+        "is_superuser": false,
+        "username": "ChefMario",
+        "first_name": "Mario",
+        "last_name": "Rossi",
+        "email": "mario.rossi@gmail.com",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2024-11-20T10:30:00Z",
+        "years_of_experience": 15,
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "Accounts.cook",
+    "pk": 3,
+    "fields": {
+        "password": "pbkdf2_sha256$870000$zxqhcpadLGklTuptyJKyWX$vBG3+uswTFNgSGz4JSxYBXVa7YROslJtCvwoOFKYDQl=",
+        "last_login": "2024-12-10T08:00:00Z",
+        "is_superuser": false,
+        "username": "ChefAnna",
+        "first_name": "Anna",
+        "last_name": "Schmidt",
+        "email": "anna.schmidt@gmail.com",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2024-10-05T15:00:00Z",
+        "years_of_experience": 10,
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "Accounts.cook",
+    "pk": 4,
+    "fields": {
+        "password": "pbkdf2_sha256$870000$wxqhcpadPGklVuptyJKyWX$vCG5+vswXFNgSHz5JSxYBXVa8YROslJsEvwoOFKYDRl=",
+        "last_login": "2024-12-12T11:45:00Z",
+        "is_superuser": false,
+        "username": "ChefLiu",
+        "first_name": "Liu",
+        "last_name": "Wang",
+        "email": "liu.wang@gmail.com",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2024-09-15T09:20:00Z",
+        "years_of_experience": 8,
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "Accounts.cook",
+    "pk": 5,
+    "fields": {
+        "password": "pbkdf2_sha256$870000$lxqhcpadJGklVuptyJKyWX$vDG7+oswHFNgTHz6KSxYBXVa9YROslJsGvwoOFKYDSl=",
+        "last_login": "2024-12-13T17:20:00Z",
+        "is_superuser": false,
+        "username": "ChefMaria",
+        "first_name": "Maria",
+        "last_name": "Garcia",
+        "email": "maria.garcia@gmail.com",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2024-08-10T18:40:00Z",
+        "years_of_experience": 12,
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "Accounts.cook",
+    "pk": 6,
+    "fields": {
+        "password": "pbkdf2_sha256$870000$rxqhcpadLKklVuptyJKyWX$vHG8+yswIFNgSGz7JSxYBXVa1YROslJsHvwoOFKYDTl=",
+        "last_login": "2024-12-14T19:00:00Z",
+        "is_superuser": false,
+        "username": "ChefPierre",
+        "first_name": "Pierre",
+        "last_name": "Dubois",
+        "email": "pierre.dubois@gmail.com",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2024-07-25T14:00:00Z",
+        "years_of_experience": 20,
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "Accounts.cook",
+    "pk": 7,
+    "fields": {
+        "password": "pbkdf2_sha256$870000$sxqhcpadMKklTuptyJKyWX$vJG9+wswJFNgSHz8KSxYBXVa2YROslJsIvwoOFKYDUl=",
+        "last_login": "2024-12-10T12:30:00Z",
+        "is_superuser": false,
+        "username": "ChefAisha",
+        "first_name": "Aisha",
+        "last_name": "Khan",
+        "email": "aisha.khan@gmail.com",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2024-06-15T10:15:00Z",
+        "years_of_experience": 7,
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "Accounts.cook",
+    "pk": 8,
+    "fields": {
+        "password": "pbkdf2_sha256$870000$txqhcpadNKklVuptyJKyWX$vKG0+zsxKFNgTGz9LSxYBXVa3YROslJsJvwoOFKYDVl=",
+        "last_login": "2024-12-11T16:45:00Z",
+        "is_superuser": false,
+        "username": "ChefCarlos",
+        "first_name": "Carlos",
+        "last_name": "Martinez",
+        "email": "carlos.martinez@gmail.com",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2024-05-20T17:10:00Z",
+        "years_of_experience": 9,
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "Accounts.cook",
+    "pk": 9,
+    "fields": {
+        "password": "pbkdf2_sha256$870000$vxqhcpadOKklVuptyJKyWX$vMG1+wsxLFNgSGy0MSxYBXVa4YROslJsKvwoOFKYDWl=",
+        "last_login": "2024-12-13T13:10:00Z",
+        "is_superuser": false,
+        "username": "ChefEmma",
+        "first_name": "Emma",
+        "last_name": "Brown",
+        "email": "emma.brown@gmail.com",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2024-04-10T08:20:00Z",
+        "years_of_experience": 5,
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "Accounts.cook",
+    "pk": 10,
+    "fields": {
+        "password": "pbkdf2_sha256$870000$uxqhcpadPKklVuptyJKyWX$vNG2+ysxMFNgSHy1NSxYBXVa5YROslJsLvwoOFKYDXl=",
+        "last_login": "2024-12-14T09:30:00Z",
+        "is_superuser": false,
+        "username": "ChefElena",
+        "first_name": "Elena",
+        "last_name": "Ivanova",
+        "email": "elena.ivanova@gmail.com",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2024-03-05T12:00:00Z",
+        "years_of_experience": 11,
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "Accounts.cook",
+    "pk": 11,
+    "fields": {
+        "password": "pbkdf2_sha256$870000$yxqhcpadQKklVuptyJKyWX$vOG3+zswNFNgSGz2OSxYBXVa6YROslJsMvwoOFKYDYl=",
+        "last_login": "2024-12-14T20:15:00Z",
+        "is_superuser": false,
+        "username": "ChefHassan",
+        "first_name": "Hassan",
+        "last_name": "Ali",
+        "email": "hassan.ali@gmail.com",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2024-02-20T09:00:00Z",
+        "years_of_experience": 13,
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "Accounts.cook",
+    "pk": 12,
+    "fields": {
+        "password": "pbkdf2_sha256$870000$zxqhcpadRKklTuptyJKyWX$vPG4+zsxOFNgSGz3PSxYBXVa7YROslJsNvwoOFKYDZl=",
+        "last_login": "2024-12-10T15:30:00Z",
+        "is_superuser": false,
+        "username": "ChefYuki",
+        "first_name": "Yuki",
+        "last_name": "Takahashi",
+        "email": "yuki.takahashi@gmail.com",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2024-01-15T16:20:00Z",
+        "years_of_experience": 6,
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "Accounts.cook",
+    "pk": 13,
+    "fields": {
+        "password": "pbkdf2_sha256$870000$axqhcpadSKklVuptyJKyWX$vQG5+yswPFNgSHz4QSxYBXVa8YROslJsOvwoOFKYDAl=",
+        "last_login": "2024-12-12T18:00:00Z",
+        "is_superuser": false,
+        "username": "ChefSophia",
+        "first_name": "Sophia",
+        "last_name": "Müller",
+        "email": "sophia.muller@gmail.com",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2023-12-10T11:30:00Z",
+        "years_of_experience": 9,
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "Accounts.cook",
+    "pk": 14,
+    "fields": {
+        "password": "pbkdf2_sha256$870000$bxqhcpadTKklVuptyJKyWX$vRG6+zsxQFNgSGz5RSxYBXVa9YROslJsPvwoOFKYDCl=",
+        "last_login": "2024-12-13T19:45:00Z",
+        "is_superuser": false,
+        "username": "ChefLiam",
+        "first_name": "Liam",
+        "last_name": "O'Connor",
+        "email": "liam.oconnor@gmail.com",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2023-11-05T13:45:00Z",
+        "years_of_experience": 14,
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "Accounts.cook",
+    "pk": 15,
+    "fields": {
+        "password": "pbkdf2_sha256$870000$cxqhcpadUKklVuptyJKyWX$vSG7+zsxRFNgSHz6TSxYBXVa0YROslJsQvwoOFKYDMl=",
+        "last_login": "2024-12-14T11:20:00Z",
+        "is_superuser": false,
+        "username": "ChefIsabella",
+        "first_name": "Isabella",
+        "last_name": "Romero",
+        "email": "isabella.romero@gmail.com",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2023-10-25T17:50:00Z",
+        "years_of_experience": 8,
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "Accounts.cook",
+    "pk": 16,
+    "fields": {
+        "password": "pbkdf2_sha256$870000$dxqhcpadVKklVuptyJKyWX$vTG8+ysxSFNgSGz7USxYBXVa1YROslJsRvwoOFKYDNl=",
+        "last_login": "2024-12-11T14:10:00Z",
+        "is_superuser": false,
+        "username": "ChefArjun",
+        "first_name": "Arjun",
+        "last_name": "Patel",
+        "email": "arjun.patel@gmail.com",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2023-09-15T10:30:00Z",
+        "years_of_experience": 10,
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "Kitchen_app.dish",
+    "pk": 1,
+    "fields": {
+        "name": "Pepperoni pizza",
+        "description": "Pepperoni is a variety of spicy salami made from cured pork and beef seasoned with paprika and chili peppers. Prior to cooking, pepperoni is characteristically soft, slightly smoky, and bright red.",
+        "price": "12.00",
+        "dish_type": 1,
+        "cooks": [
+            1,
+            3,
+            5,
+            8,
+            9,
+            13,
+            16
+        ]
+    }
+},
+{
+    "model": "Kitchen_app.dish",
+    "pk": 2,
+    "fields": {
+        "name": "Hawaiian Pizza",
+        "description": "A pizza originating in Canada, traditionally topped with pineapple, tomato sauce, mozzarella cheese, and either ham or bacon",
+        "price": "8.50",
+        "dish_type": 1,
+        "cooks": [
+            1,
+            2,
+            3,
+            4,
+            6,
+            7,
+            8,
+            9,
+            11,
+            12,
+            13,
+            15,
+            16
+        ]
+    }
+},
+{
+    "model": "Kitchen_app.dish",
+    "pk": 3,
+    "fields": {
+        "name": "Pasta bake with sausage",
+        "description": "Pasta bake with sausage (baked ziti) is a lazy day lasagna with layers of pasta tossed in a rich meat sauce, layered with mozzarella, and baked.",
+        "price": "9.99",
+        "dish_type": 2,
+        "cooks": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            7,
+            8,
+            9,
+            10,
+            11,
+            14,
+            15,
+            16
+        ]
+    }
+},
+{
+    "model": "Kitchen_app.dish",
+    "pk": 4,
+    "fields": {
+        "name": "Pesto Penne Pasta",
+        "description": "Quick and easy pesto penne pasta is a simple and light Italian pasta dish",
+        "price": "7.50",
+        "dish_type": 2,
+        "cooks": [
+            1,
+            2,
+            5,
+            6,
+            9,
+            11,
+            12,
+            14,
+            16
+        ]
+    }
+},
+{
+    "model": "Kitchen_app.dish",
+    "pk": 5,
+    "fields": {
+        "name": "Creamy White Chicken and Spinach Lasagna",
+        "description": "Creamy white chicken and spinach lasagna with tender shredded chicken is the most comforting creamiest cheesiest white lasagna.",
+        "price": "12.50",
+        "dish_type": 2,
+        "cooks": [
+            3,
+            4,
+            5,
+            6,
+            8,
+            10,
+            12,
+            13,
+            14,
+            15
+        ]
+    }
+},
+{
+    "model": "Kitchen_app.dish",
+    "pk": 6,
+    "fields": {
+        "name": "Mac and Cheese with White Cheddar",
+        "description": "Creamy stovetop mac and cheese with white cheddar is a delicious and comforting",
+        "price": "8.00",
+        "dish_type": 2,
+        "cooks": [
+            1,
+            3,
+            5,
+            6,
+            9,
+            11,
+            15,
+            16
+        ]
+    }
+},
+{
+    "model": "Kitchen_app.dish",
+    "pk": 7,
+    "fields": {
+        "name": "Creamy Tomato Pasta",
+        "description": "This Creamy Tomato Pasta is a simple and delicious meal with a cream and tomato based sauce that is rich and silky smooth.",
+        "price": "15.00",
+        "dish_type": 2,
+        "cooks": [
+            1,
+            2,
+            3,
+            4,
+            7,
+            11,
+            13,
+            14,
+            16
+        ]
+    }
+},
+{
+    "model": "Kitchen_app.dishtype",
+    "pk": 1,
+    "fields": {
+        "name": "Pizza"
+    }
+},
+{
+    "model": "Kitchen_app.dishtype",
+    "pk": 2,
+    "fields": {
+        "name": "Pasta"
+    }
+},
+{
+    "model": "Kitchen_app.dishtype",
+    "pk": 3,
+    "fields": {
+        "name": "Soup"
+    }
+},
+{
+    "model": "Kitchen_app.dishtype",
+    "pk": 7,
+    "fields": {
+        "name": "Pastries"
+    }
+},
+{
+    "model": "Kitchen_app.dishtype",
+    "pk": 8,
+    "fields": {
+        "name": "Cakes"
+    }
+},
+{
+    "model": "Kitchen_app.dishtype",
+    "pk": 9,
+    "fields": {
+        "name": "Bakings"
+    }
+},
+{
+    "model": "Kitchen_app.dishtype",
+    "pk": 10,
+    "fields": {
+        "name": "Desserts"
+    }
+},
+{
+    "model": "Kitchen_app.dishtype",
+    "pk": 15,
+    "fields": {
+        "name": "Steamed"
+    }
+},
+{
+    "model": "Kitchen_app.dishtype",
+    "pk": 16,
+    "fields": {
+        "name": "Marinated"
+    }
+}
+]

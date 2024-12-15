@@ -1,0 +1,35 @@
+{% extends "layouts/base.html" %}
+{% load crispy_forms_filters %}
+
+{% block content-main-div %}<div class="card card-body blur shadow-blur mx-3 mx-md-4 mt-n6 min-vh-65">{% endblock %}
+
+{% block sidebar %}
+  <div class="d-inline-block position-absolute m-5">
+    <h1>Search by</h1>
+    <form method="get" action="" class="form-inline">
+      {{ search_form|crispy }}
+      <input type="submit" class="btn btn-dark" value="Search">
+    </form>
+  </div>
+{% endblock %}
+{% block content %}
+  <div>
+  <h1>Available Dishes<a href="{% url "dish-create" %}" class="btn btn-dark m-3">+</a></h1>
+  {% for dish in dish_list %}
+    <div>
+      <a class="d-inline-block" href="{% url "dish-detail" pk=dish.id %}">
+        <h5>{{ dish.name }}</h5>
+      </a>
+      <a class="d-inline-block" href="{% url "dish-delete" pk=dish.id %}">
+        <img style="height: 20px" alt="delete" src="{{ ASSETS_ROOT }}/img/delete.webp" %}">
+      </a>
+      <a href="{% url "dish-update" pk=dish.id %}">
+        <img style="height: 20px" alt="update" src="{{ ASSETS_ROOT }}/img/pen.webp" %}">
+      </a>
+    </div>
+    <p>{{ dish.price }} $</p>
+    <p>Type: {{ dish.dish_type }}</p>
+    <hr>
+  {% endfor %}
+  </div>
+{% endblock %}

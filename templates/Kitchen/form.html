@@ -1,0 +1,11 @@
+{% extends "layouts/base.html" %}
+{% load crispy_forms_filters %}
+{% block content %}
+  <form class = "form form-label" method="post" action="">
+    {% csrf_token %}
+    {{ form|crispy }}
+    <div class="form form-label d-flex flex-column align-items-center">
+      <button type="submit" class = "align-center btn btn-dark">Submit</button>
+    </div>
+  </form>
+{% endblock %}
