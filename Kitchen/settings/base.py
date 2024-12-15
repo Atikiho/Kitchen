@@ -26,7 +26,7 @@ SECRET_KEY = os.environ.get(
     "django-insecure-2mwo^v$)av39!ch#$@b+*72o6th4(kd*#v=19#gnqeqqsg+ocz",
 )
 
-AUTH_USER_MODEL = "Kitchen_app.Cook"
+AUTH_USER_MODEL = "Accounts.Cook"
 
 # Application definition
 
@@ -39,6 +39,7 @@ INSTALLED_APPS = [
     "django.contrib.staticfiles",
     "crispy_bootstrap4",
     "crispy_forms",
+    "Accounts",
     "Kitchen_app",
     "templates",
     "static",

@@ -1,17 +1,14 @@
 from django.contrib.auth.mixins import LoginRequiredMixin
-from django.contrib.sites.shortcuts import get_current_site
-from django.shortcuts import render
 from django.urls import reverse_lazy
 from django.views import generic
 
 from Kitchen_app.forms import (
-    CookForm,
     DishForm,
     DishTypeForm,
     DishFormSearch,
-    CookUpdateForm
 )
-from Kitchen_app.models import Cook, Dish, DishType
+from Kitchen_app.models import Dish, DishType
+from Accounts.models import Cook
 
 
 class Index(generic.ListView):
@@ -22,40 +19,8 @@ class Index(generic.ListView):
         context = super(Index, self).get_context_data(**kwargs)
         context["Cooks"] = Cook.objects.all()
         context["Dishes"] = Dish.objects.all()
-        context["DishTypes"] = Dish.objects.all()
+        context["DishTypes"] = DishType.objects.all()
         return context
-
-
-class CookList(LoginRequiredMixin, generic.ListView):
-    model = Cook
-    template_name = "Kitchen/cook-list.html"
-    paginate_by = 5
-
-
-class CookDetail(LoginRequiredMixin, generic.DetailView):
-    model = Cook
-    template_name = "Kitchen/cook-detail.html"
-    queryset = Cook.objects.prefetch_related()
-
-
-class CookCreate(generic.CreateView):
-    model = Cook
-    form_class = CookForm
-    template_name = "registration/registration_form.html"
-    success_url = reverse_lazy("index")
-
-
-class CookDelete(LoginRequiredMixin, generic.DeleteView):
-    model = Cook
-    template_name = "Kitchen/delete-confirm.html"
-    success_url = reverse_lazy("cook-list")
-
-
-class CookUpdate(LoginRequiredMixin, generic.UpdateView):
-    model = Cook
-    template_name = "registration/registration_form.html"
-    form_class = CookUpdateForm
-    success_url = reverse_lazy("cook-list")
 
 
 class DishList(LoginRequiredMixin, generic.ListView):
@@ -90,7 +55,7 @@ class DishList(LoginRequiredMixin, generic.ListView):
             max_price = form.cleaned_data["max_price"]
             dish_type = form.cleaned_data["dish_type"]
 
-            queryset = Dish.objects.prefetch_related("dish_type")
+            queryset = Dish.objects.select_related("dish_type")
 
             if name:
                 queryset = queryset.filter(name__icontains=name)
